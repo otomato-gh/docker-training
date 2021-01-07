@@ -1,0 +1,3 @@
+FROM alpine
+# count lines with wc 
+ENTRYPOINT ["wc", "-l"]
