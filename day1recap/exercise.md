@@ -10,7 +10,7 @@
 
 - run a container based on *a2hostname* so that:
 
-  - container port 80 is mapped to host port 8080
+    - container port 80 is mapped to host port 8080
 
 - Access your apache2 webserver on port 8080 of your host machine (with curl or in browser). What do you see? Is this true?
 
@@ -18,11 +18,11 @@
 
 - Now run another container but this time:
 
-- container port 80 is mapped to host port 9080
+    - container port 80 is mapped to host port 9080
 
--  mount host directory /home/ubuntu/html to container path  /var/www/html/
+    -  mount host directory /home/ubuntu/html to container path  /var/www/html/
 
-- name your container **hosthostname**
+    - name your container **hosthostname**
 
 - On the host machine run the command:
 
